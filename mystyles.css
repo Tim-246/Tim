@@ -1,0 +1,110 @@
+#myLabels {
+    text-align: center;
+    font-size: 50px;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+
+body {
+    margin:auto;
+    text-align: center;  
+}
+
+#box {
+    margin: auto;
+    width: 700px;
+    height: 900px;
+    border: 3px solid black;
+    padding: 10px;
+    background-color:rgb(255, 128, 0);
+}
+
+#errorLabel {
+    font-size: 20px;
+    padding: 10px;
+}
+
+#results {
+    text-align: center;
+    margin: auto;
+    border: 3px solid black;
+    /* padding: 10px; */
+    padding-top: 0px;
+    font-size: 30px;
+    height: 250px;
+    width: 500px;
+}
+
+
+
+#labelBasePay {
+    font-size: 25px;
+    text-align: center;
+    padding-left: 0px;
+    /* padding-left: 500px; */
+}
+
+#basePayInput {
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+}
+
+#labelClasses {
+    font-size: 25px;
+    padding-left: 15px;
+}
+
+#classesInput {
+    font-size: 22px;
+    width: 200px;
+    text-align: center;
+}
+
+#labelTier {
+    font-size: 25px;
+    padding-left: 40px;
+}
+
+#tierInput {
+    font-size: 22px;
+    width: 310px;
+    text-align: center;
+    width: 200px;
+    height: 31px;
+}
+
+#buttonCalculate{
+    font-size: 20px;
+    margin-left: 5%;
+    margin: auto;
+    width: 200px;
+    height: 35px;
+}
+
+#buttonClear{
+    font-size: 20px;
+    margin-left: 5%;
+    width: 200px;
+    height: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  

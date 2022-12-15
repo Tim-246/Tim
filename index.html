@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pay Calculator</title>
+        <link rel="icon" href="CalculatorOrange.png">
+        <link rel="stylesheet" href="mystyles.css">
+        <script type = "text/javascript" src="script.js"></script>
+    </head>
+    <Body background="Colors.png"
+    <body>
+        <br>
+        <br>
+        <br>
+        <div id="box">
+            <h1 id="firstHeader">Pay Calculator</h1>
+            <h3 id="secondHeader">(Unofficial)</h3>
+            <p id="myLabels">
+                <div id="basePay">
+                    <label for="basePay" id="labelBasePay">Base Pay: </label>
+                    <input type="number" id="basePayInput" value="7">
+                    <br>
+                    <br>
+                </div>
+
+                <div id="classes">
+                    <label for="classes" id="labelClasses">Classes: </label>
+                    <input type="number" id="classesInput">
+                    <br>
+                    <br>
+                </div>
+
+                <div id="tier">
+                  <label for="tier" id="labelTier">Tier: </label>
+                    <!-- <input type="number" id="tierInput"> -->
+                    <select name="Tier" id="tierInput">
+                        <option selected disabled>Select Tier</option>
+                        <option value="1">Tier 1</option>
+                        <option value="2">Tier 2</option>
+                        <option value="3">Tier 3</option>
+                        <option value="4">Tier 4</option>
+                        <option value="5">Tier 5</option>
+                        <option value="6">Tier 6</option>
+                        <option value="7">Tier 7</option>
+                        <option value="8">Tier 8</option>
+                        <option value="9">Tier 9</option>
+                        <option value="10">Tier 10</option>
+                      </select>
+                    <br>
+                    <br>
+                </div>
+            </p>
+                <button onclick="displayResults()" id="buttonCalculate">Calculate</button>
+                <button onclick="clearAll()" id="buttonClear">Clear</button>
+                <div id="errorLabel">
+                    <label for="error" id="error">Invalid Entry</label>
+                </div>
+                <br>
+                <br>
+                <div id="results">
+                    <br>
+                    Total Base Pay: <span id = showTotalBasePay></span><br><br>
+                    Total Incentives: <span id = showTotalIncentives></span><br><br>
+                    Total Pay: <span id = showTotalPay></span> 
+                </div>
+            <!-- </p> -->
+        </div>
+
+
+    <script>
+        hideElem();
+    </script>
+
+    </body>
+
+    <footer>
+        This web app is unaffilated with any organization. <a href="mailto:paycalculatorcontact789@gmail.com">Contact</a>
+    </footer>
+</html>
